@@ -39,10 +39,10 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/books"
+              to="/addbook"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Books
+              Add Book
             </Link>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
@@ -81,10 +81,10 @@ const Navbar = () => {
                     Home
                   </Link>
                   <Link
-                    to="/books"
+                    to="/addbook"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Books
+                    Add Book
                   </Link>
                 </div>
                 <div className="py-6"></div>
